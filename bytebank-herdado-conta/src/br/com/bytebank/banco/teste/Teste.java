@@ -15,7 +15,7 @@ public class Teste {
 		guardador.adiciona(cc2);
 
 		int tamanho = guardador.getQuantidadeDeElementos();
-		System.out.println("tamanho: " + tamanho);
+		System.out.println("tamanho do elemento: " + tamanho);
 
 		Conta ref = (Conta) guardador.getReferencia(0);
 		System.out.println(ref.getNumero());

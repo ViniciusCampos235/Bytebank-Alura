@@ -11,7 +11,7 @@ public class TesteArrayPrimitivos {
 		}
 		
 		for (int i = 0; i < idades.length; i++) {
-			System.out.println(idades[i]);
+			System.out.println("Idades: " + idades[i]);
 		}
 	}
 }
